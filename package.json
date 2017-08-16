@@ -1,0 +1,78 @@
+{
+  "name": "cova-solutions",
+  "version": "1.0.0",
+  "description": "Maquetado de Cova Solutions",
+  "main": "gulpfile.babel.js",
+  "scripts": {
+    "test": "standard",
+    "start": "npm run test && gulp",
+    "styles": "gulp styles",
+    "scripts": "gulp build:scripts",
+    "images": "gulp build:images",
+    "deploy": "gulp deploy"
+  },
+  "standard": {
+    "parser": "babel-eslint",
+    "ignore": [
+      "/src/scripts/lib",
+      "/src/scripts/externals",
+      "/src/views/home/menuFlotante/animations.js",
+      "/src/**/**/jquery.options.js"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexballera/alenta.git"
+  },
+  "author": "Alex Ballera <alexballera@gmail.com> (http://alexballera.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexballera/alenta/issues"
+  },
+  "homepage": "https://github.com/alexballera/alenta#readme",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-eslint": "^7.2.3",
+    "babel-plugin-transform-regenerator": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-register": "^6.24.1",
+    "babelify": "^7.3.0",
+    "browser-sync": "^2.18.12",
+    "browserify": "^14.4.0",
+    "del": "^3.0.0",
+    "eslint": "^4.1.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-cache": "^0.4.6",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-inject": "^4.2.0",
+    "gulp-notify": "^3.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sass-glob": "^1.0.8",
+    "gulp-uglify": "^3.0.0",
+    "imagemin-jpegtran": "^5.0.2",
+    "imagemin-optipng": "^5.2.1",
+    "imagemin-pngquant": "^5.0.1",
+    "imagemin-svgo": "^5.2.2",
+    "page": "^1.7.1",
+    "require-dir": "^0.3.2",
+    "sass-lint": "^1.10.2",
+    "standard": "^10.0.2",
+    "stream-series": "^0.1.1",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "webfontloader": "^1.6.28",
+    "yo-yo": "^1.4.1"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "jquery-ui": "^1.12.1",
+    "jquery-ui-dist": "^1.12.1",
+    "materialize-css": "^0.99.0"
+  }
+}

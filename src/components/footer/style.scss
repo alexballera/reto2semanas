@@ -1,0 +1,46 @@
+.footer {
+
+  .row {
+    margin-bottom: 0;
+  }
+
+  &_alenta {
+    padding: 2rem;
+    text-align: center;
+
+    picture {
+
+      @media #{$medium-and-up} {
+        text-align: right;
+      }
+
+      &:last-child {
+        @media #{$medium-and-up} {
+          text-align: left;
+        }
+      }
+
+      img {
+        height: 90px;
+      }
+    }
+  }
+
+  &_creditos {
+    background-color: rgba(0, 0, 0, .7);
+    color: $white;
+    height: 100%;
+    > p {
+      font-size: 90%;
+      line-height: 48px;
+      text-align: center;
+      width: 100%;
+      > a {
+        color:#93C021;
+        &:hover {
+          color: $color-primary;
+        }
+      }
+    }
+  }
+}

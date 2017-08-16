@@ -1,0 +1,13 @@
+public
+build
+node_modules
+bower_components
+*.tmp.*
+.sass-cache
+.idea
+logs
+*.log
+npm-debug.log*
+.publish
+*.css.map
+.vscode

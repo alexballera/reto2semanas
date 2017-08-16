@@ -1,0 +1,22 @@
+// $font-awesome: "FontAwesome", Arial, sans-serif;
+$color-primary: rgb(39, 198, 193);
+$color-secondary: #0079c0;
+$color-fonts: #a9a9a9;
+$color-hover: #1ba991;
+$background-color-topnav: rgba(0, 0, 0, .2);
+$background-color-container: #e4e4e4;
+$background-color-transparent: rgba(0, 0, 0, .7);
+$white: #fff;
+
+// Custom Materialize
+$primary-color: rgb(220, 193, 162);
+$secondary-color: rgb(39, 198, 193);
+$primary-hover: rgba(220, 193, 162, .7);
+$navbar-font-color: $color-fonts;
+
+.waves-effect {
+
+  &.waves-blue .waves-ripple {
+    background-color: $primary-color;
+  }
+}

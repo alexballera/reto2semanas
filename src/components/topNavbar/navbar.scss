@@ -1,0 +1,69 @@
+.navbar-top {
+  background-color: $white;
+  box-shadow: none;
+
+  .material-icons {
+    float: right !important;
+  }
+
+  .button-collapse {
+    .material-icons:hover {
+      color: $primary-color;
+    }
+  }
+
+  .brand-logo {
+    img {
+      height: $navbar-height;
+
+      @media #{$small-and-down} {
+        height: $navbar-height-mobile;
+      }
+
+      @media #{$large-and-up} {
+        margin-left: 2rem;
+      }
+    }
+  }
+
+  &-desktop {
+    line-height: $navbar-height;
+
+    li a {
+      text-transform: uppercase;
+
+      &:hover {
+        background-color: $primary-hover;
+        color: $white;
+      }
+    }
+  }
+}
+
+.side-nav {
+  li > a> .material-icons {
+    float: right !important;
+  }
+}
+
+#alenta,
+#consultorios,
+#areas,
+#cirugias,
+#hotel,
+#contactenos,
+#localizacion,
+#proyecto,
+#etapa1,
+#etapa2,
+#etapa3,
+#promotores,
+#contactenos,
+#contacto {
+  box-sizing: border-box;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: -$navbar-height;
+}
